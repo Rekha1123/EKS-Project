@@ -4,11 +4,11 @@ kind: ClusterConfig
 
 metadata:
   name: eks-demo
-  region: us-east-1
+  region: us-west-2
 
 managedNodeGroups:
 - name: ManagedNG-1
   desiredCapacity: 1
-  instanceType: t3.medium
+  instanceType: t3.small
   ssh:
     enableSsm: true
